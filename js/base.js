@@ -130,10 +130,10 @@
  * Imprimir en consola cual es el menor de los 2
  * Imprimir en consola cual es el mayor de los 2
  */
-const num1 = parseInt( window.prompt( 'Give number 1' ) );
-const num2 = parseInt( window.prompt( 'Give number 2' ) );
+// const num1 = parseInt( window.prompt( 'Give number 1' ) );
+// const num2 = parseInt( window.prompt( 'Give number 2' ) );
 
-const higher = Math.max( num1, num2 );
-const lower = Math.min( num1, num2 );
-console.log( `The number ${ higher } is the higher numbew` );
-console.log( `The number ${ lower } is the lower numbew` );
+// const higher = Math.max( num1, num2 );
+// const lower = Math.min( num1, num2 );
+// console.log( `The number ${ higher } is the higher numbew` );
+// console.log( `The number ${ lower } is the lower numbew` );
