@@ -113,7 +113,12 @@
 
 // const lastChar = lowCase.charAt( lowCase.length-1 );
 
-// console.log( `Your name ends in ${ lastChar }` );
+// if( lastChar !== 'a' || lastChar !== 'e' || lastChar !== 'i' || lastChar !== 'o' || lastChar !== 'u' ) {
+    // console.log( `Your name ends in consonant ${ lastChar }` );
+// } else {
+    // console.log( `Your name ends in vocal ${ lastChar }` );
+// }
+
 
 /**
  * 4:
@@ -138,7 +143,9 @@
  * 4
  * -> "Kodemia Kodemia Kodemia Kodemia"
  */
-const word = window.prompt( 'Give me a word' );
-const num = parseInt( window.prompt( 'Give me a number' ) );
+// let word = window.prompt( 'Give me a word' );
+// const num = parseInt( window.prompt( 'Give me a number' ) );
 
-console.log( word.repeat( num ) );
+// word += ' ';
+
+// console.log( word.repeat( num ) );
